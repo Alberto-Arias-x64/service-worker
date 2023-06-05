@@ -19,7 +19,7 @@ async function cacheOrFetch(event) {
     return response
 }
 
-const assetsRegex = /.png|.gif|.jpg|.jpeg|.css|.js|.ttf/g
+const assetsRegex = /.png|.gif|.jpg|.jpeg|.css|.js|.ttf|.webp/g
 const isAssetCSS = url => assetsRegex.test(url)
 
 function clearCache (event) {
